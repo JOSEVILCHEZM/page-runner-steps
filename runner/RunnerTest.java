@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(plugin={},
         features = {"src/test/resources/features"},
         stepNotifications = true,
-        glue = {"com/bdd/stepdefinitionss"},
+        glue = {"com/bdd/stepdefinitions"},
         tags = ""
 )
 
